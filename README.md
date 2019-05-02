@@ -12,12 +12,9 @@ SHOW TRIGGERS
  * DROP TRIGGER nombre_de_tu_db_a_auditar.b5update;
  * DROP TRIGGER nombre_de_tu_db_a_auditar.b5incert;
  * DROP TRIGGER nombre_de_tu_db_a_auditar.b5delete;
-# Para monitorear UPDATE a una tabla
- * UPDATE_T.SQL
-# Para monitorear INSERT
- * INSERT_T.SQL
-# Para monitorear DELETE
- * DELETE_T.SQL
+# Para monitorear a una tabla UPDATE,INSERT,DELETE
+ * audit_t.SQL
+
 
 # Estructura de la base de LOG(Auditoria)
  * log.sql
